@@ -1,4 +1,5 @@
 package com.colinhegarty.classes;
+
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -8,7 +9,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class WebDocTry {
+public class Webpage {
 	Document doc;
 	String title;
 	StringBuilder linkList;
